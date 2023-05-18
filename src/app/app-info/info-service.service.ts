@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class InfoServiceService {
-  private url:string = "http://192.168.137.185:30001/api/v1/Backend_info";
+  private url:string = "http://192.168.137.155:30001/api/v1/Backend_info";
 
   constructor( private http:HttpClient ) { }
 
